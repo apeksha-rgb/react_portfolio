@@ -31,7 +31,7 @@ function Contact() {
 
 
 
-      <div className='px-4 w-150 p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2x_8px_rgba(59,130,246,0.2)] transition'>
+      <div className='px-4 w-full min-w-[300px] md:w-[500px] sm:w-2/3 p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2x_8px_rgba(59,130,246,0.2)] transition'>
 
         <h2 className='text-3xl font-bold mb-8 bg-gradient-to-r from-blue-500  to-cyan-400 bg-clip-text text-transparent text-center'>Get in Touch</h2>
         <form className='space-y-6' onSubmit={handleSubmit}>

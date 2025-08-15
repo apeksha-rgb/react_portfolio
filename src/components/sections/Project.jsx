@@ -8,7 +8,7 @@ function Project() {
 
       
         <h2 className='text-3xl font-bold mb-8 bg-gradient-to-r from-blue-500  to-cyan-400 bg-clip-text text-transparent text-center'>
-          Learning Projects
+          Projects
         </h2>
         <div className='grid grid-cols-1 md:grid-cols-2 gap-6'>
           <div className='p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2x_8px_rgba(59,130,246,0.2)] transition'>
@@ -21,7 +21,7 @@ function Project() {
               
             </div>
             <div className='flex justify-between items-center'>
-              <a href='https://moviedack.netlify.app' className='text-blue-400 hover:text-blue-300 transition-colors my-4'>View Project </a>
+              <a href='https://movie-deckk.netlify.app' className='text-blue-400 hover:text-blue-300 transition-colors my-4'>View Project </a>
             </div>
           </div>
 
@@ -35,7 +35,7 @@ function Project() {
               
             </div>
             <div className='flex justify-between items-center'>
-              <a href='https://github.com/apeksha-rgb/react_practice/tree/main/14megaBlog' className='text-blue-400 hover:text-blue-300 transition-colors my-4'>View Project </a>
+              <a href='https://fullstackblog-app.netlify.app' className='text-blue-400 hover:text-blue-300 transition-colors my-4'>View Project </a>
             </div>
           </div>
 

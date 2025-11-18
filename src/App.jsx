@@ -10,6 +10,9 @@ import Home from "./components/sections/Home"
 import About from "./components/sections/About"
 import Project from "./components/sections/Project"
 import Contact from "./components/sections/Contact"
+import BasicProject from "./components/sections/BasicProject"
+import WebsiteDesigns from "./components/sections/WebsiteDesigns"
+import WebflowProject from "./components/sections/WebflowProject"
 function App() {
   const [isLoaded, setIsLoaded] = useState(false)
   const [menuOpen, setMenuOpen] = useState(false)
@@ -24,7 +27,11 @@ function App() {
           <Home />
           <About />
           <Project />
+          <BasicProject />
+          <WebsiteDesigns />
+          <WebflowProject />
           <Contact />
+          
         </div>
         
     </>
